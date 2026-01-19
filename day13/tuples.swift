@@ -1,12 +1,12 @@
 // Day 13: Tuples in Swift
 
 // Simple tuple
-let person = ("Tejas", 21)
+let person = ("Tejas", 25)
 print("Name:", person.0)
 print("Age:", person.1)
 
 // Named tuple
-let user = (name: "Tejas", age: 21, isDeveloper: true)
+let user = (name: "Tejas", age: 25, isDeveloper: true)
 print("Name:", user.name)
 print("Age:", user.age)
 print("Developer:", user.isDeveloper)
