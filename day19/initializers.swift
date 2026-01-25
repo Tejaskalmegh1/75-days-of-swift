@@ -17,8 +17,8 @@ print("Age:", person1.age)
 
 // Default initializer example
 struct Car {
-    var brand: String = "BMW"
-    var year: Int = 1967
+    var brand: String = "Unknown"
+    var year: Int = 0
 }
 
 let car1 = Car()
